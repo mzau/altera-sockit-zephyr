@@ -1,0 +1,6 @@
+identifier: sockit
+name: Terasic SocKit
+type: mcu
+arch: nios2
+toolchain:
+  - zephyr

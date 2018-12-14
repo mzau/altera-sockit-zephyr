@@ -1,0 +1,4 @@
+
+config BOARD_SOCKIT
+	bool "Terasic SocKit Board"
+	depends on SOC_NIOS2FS_ZEPHYR

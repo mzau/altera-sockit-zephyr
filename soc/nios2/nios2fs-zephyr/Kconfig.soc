@@ -1,0 +1,5 @@
+config SOC_NIOS2FS_ZEPHYR
+	bool "Nios IIf - Zephyr SocKit Configuration"
+	select HAS_MUL_INSTRUCTION
+	select HAS_DIV_INSTRUCTION
+
