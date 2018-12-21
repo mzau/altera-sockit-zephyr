@@ -1,0 +1,5 @@
+QUARTUS_VERSION = "17"
+
+# Revisions
+
+PROJECT_REVISION = "sockit_DDR3_Nios"

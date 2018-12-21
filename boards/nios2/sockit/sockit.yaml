@@ -4,3 +4,5 @@ type: mcu
 arch: nios2
 toolchain:
   - zephyr
+ram: 1024
+

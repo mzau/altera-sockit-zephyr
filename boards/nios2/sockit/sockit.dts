@@ -1,6 +1,6 @@
 /dts-v1/;
 
-#include <nios2f.dtsi>
+#include <nios2fs.dtsi>
 
 / {
 	model = "sockit";

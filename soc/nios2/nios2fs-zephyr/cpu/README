@@ -1,0 +1,19 @@
+These files are a Nios II/F CPU design provided by Altera for evaluating
+Zephyr on Nios II. This design is intended for the Terasic SoCKit
+development board. You can find more information about this board here:
+
+!!!TODO!!!
+
+You will need the Quartus SDK in order to modify this CPU or flash it onto
+a supported device. The Lite version of Quartus may be obtained without charge
+from the following link:
+
+http://dl.altera.com/?edition=lite
+
+To flash this CPU, use the nios2-configure-sof tool:
+
+$ nios2-configure-sof sockit_DDR3_Nios.sof
+
+The 'make flash' target will also package up the kernel and CPU into a single
+.pof file which will then put the image onto the device using quartus_pgm tool.
+
