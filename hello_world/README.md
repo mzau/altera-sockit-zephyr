@@ -1,4 +1,4 @@
-#Build recipe to reproduce the problem#
+# Build recipe to reproduce the problem #
 
 ## load environment ##
 <pre>
@@ -31,7 +31,9 @@ collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
 </pre>
 
-#Build recipe for altera MAX10 board#
+*Besides the relocation problem the strange thing here is the giant region size for the SRAM.*
+
+# Build recipe for altera MAX10 board #
 <pre>
 cd $ZEPHYR_BASE/samples/hello_world
 mkdir build
